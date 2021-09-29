@@ -1,0 +1,175 @@
+/*
+ * 
+ * Project:	Testing Foundation
+ * Dev:		Jennifer Martinez
+ * Email:	jenny.eileen.mtz@gmail.com
+ * Date:		2021/09/28
+ *
+ *
+ */
+/* Variables */
+/* Main Settings */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Classes */
+.disclamer {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #262626;
+  font-weight: 300;
+}
+
+.disclamer-white {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.mtop {
+  margin-top: 70px;
+}
+
+.ptop {
+  padding-top: 130px;
+}
+
+.mt-4 {
+  color: #2F3B83;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  letter-spacing: -1;
+  font-size: 2.2em;
+}
+
+.mt-5 {
+  color: #CE952C;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  letter-spacing: -1;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.mt-line {
+  border-top: 5px #2F3B83 solid;
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.mt-img-1 {
+  background: transparent no-repeat top right;
+  background-size: 800px;
+  background-position-x: 791px;
+}
+
+.mt-mg {
+  color: #CE952C;
+  letter-spacing: -1;
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.btn-blue {
+  background: #2f3b83;
+  color: #fff;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 1.3em 1em;
+}
+
+.btn-yellow {
+  background: #E8A402;
+  color: #fff;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 1.3em 6em;
+}
+
+.mt-mb {
+  padding-bottom: 50px;
+}
+
+.mt-mb-s {
+  padding-bottom: 100px;
+}
+
+.mt-mb-t {
+  padding-bottom: 100px;
+}
+
+.image-representative {
+  max-width: 180px !important;
+}
+
+.subject {
+  margin-right: 20px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .mt-img-1 {
+    background-size: 503px;
+    background-position-x: 382px;
+    background-position-y: 155px;
+  }
+
+  .mt-mb {
+    padding-bottom: 32px;
+  }
+
+  .mt-mb-s {
+    padding-bottom: 0px;
+  }
+
+  .mt-mb-t {
+    padding-bottom: 30px;
+  }
+
+  .mt-mg {
+    margin-top: 30px;
+  }
+
+  .ptop {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 39.9375em) {
+  .mt-img-1 {
+    background-size: 253px;
+    background-position-x: 140px;
+    background-position-y: 490px;
+  }
+
+  .mt-mb {
+    padding-bottom: 165px;
+  }
+
+  .mt-mb-s {
+    padding-bottom: 0px;
+  }
+
+  .mt-mb-t {
+    padding-bottom: 30px;
+  }
+
+  .mt-mg {
+    margin-top: 30px;
+  }
+
+  .ptop {
+    padding-top: 100px;
+  }
+
+  .mtop {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

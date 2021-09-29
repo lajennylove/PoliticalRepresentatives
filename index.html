@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    
+    <title>Canadian Policital Representatives</title>
+    
+  </head>
+  <body>
+    
+    <!-- Section 1 -->
+	<section class="mt-img-1">
+		<div class="grid-container mtop">
+		  	<div class="grid-x grid-margin-x mt-mb animation-element bounce-up">
+			  <div class="cell medium-7 large-5 subject">
+				<h1 class="mt-4">Political Representatives</h1>
+				<div class="mt-line"></div>
+
+		  		<p class="disclamer">By using your postal code you can get a list of representatives of your postal zone in Canada.</p>
+		  		
+		  		<div class="input-group">
+				  <span class="input-group-label">Postal</span>
+				  <input class="input-group-field" type="text" id="postal" placeholder="H2W2C1">
+				  <div class="input-group-button">
+				    <input type="submit" class="button" value="Submit" id="send">
+				  </div>
+				</div>
+		  		
+			  </div>
+			  <div class="cell auto"></div>	  
+			</div>
+		</div>
+	</section>
+	
+	<div class="grid-container animation-element bounce-up clearfix" id="cards"></div>
+	
+	
+
+	<!-- JavaScript -->
+    <!-- jQuery first, then foundation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/js/foundation.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>
